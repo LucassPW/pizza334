@@ -1,0 +1,518 @@
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    -o-filter: blur(5px);
+    filter: blur(5px);
+    transform: scale(1.04);
+  }
+body {
+    background-color: rgb(252, 239, 211) ;
+    font-family: "Cormorant Garamond", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.welcome h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 15rem;
+    font-size: 78px;
+    font-family: cormorant;
+    text-transform: uppercase;
+    font-weight: 900;
+    transition: 0.5s ease;
+    padding: 50px;
+}
+
+.welcome a {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s ease;
+}
+
+.welcome a:hover {
+    color: hsl(25, 100%, 79%);
+    transform: scale(0.2);
+}
+
+.welcome h1:hover {
+    transform: scale(1.1);
+    color: #000000;
+    border: 1px solid;
+    border-radius: 20% 30%;
+    background-color: #75757553;
+}
+
+.topnav {
+    display: none;
+}
+
+.navbar.nav-menu {
+    margin-top: -0.01px;
+}
+
+.gradient {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#intro {
+    min-width: 300px;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+
+}
+
+#pizza-info {
+    min-width: 300px;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.pz-name {
+    text-transform: uppercase;
+    font-weight: bold;
+    ;
+}
+
+#intro h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.gp {
+    font-size: 48px;
+    text-decoration: underline;
+}
+
+#intro h2.order {
+    text-decoration: none;
+    font-weight: 900;
+    transition: 0.4s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+
+#intro h2.order:hover {
+    color: #ff8437;
+    text-decoration: none;
+}
+
+#intro p {
+    font-size: 26px;
+    color: #000000;
+}
+
+#intro a {
+    text-decoration: none;
+    font-weight: 900;
+    transition: 0.3s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+
+#intro a:hover {
+    color: #af4261;
+    text-decoration: underline;
+}
+
+h1 {
+    display: inline-block;
+    font-weight: 200;
+    margin: 0;
+    color: #000000;
+}
+
+.links {
+    display: inline-block;
+    padding: 0;
+}
+.links li {
+    display: inline-block;
+}
+
+.links ul {
+    padding: 0;
+}
+
+.links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 8px;
+}
+
+.nav-link {
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #af4261;
+}
+
+.clasa {
+    margin-left: -30px;
+}
+
+.clasa, .prof {
+    margin-top: 16px;
+}
+
+.work {
+    margin-top: 116px !important;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.navbar {
+    margin: 32px;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar h2 {
+    color: rgb(0, 0, 0);
+    max-width: 500px;
+}
+
+.card {
+    /* border: 1px solid blue; */
+    width: 49.75%;
+    display: inline-block;
+    box-sizing: border-box ;
+    padding: 20px;
+    transition: 0.7s ease;
+}
+
+.card-order {
+    border: 2.5px solid rgb(0, 0, 0);
+    /* width: 50%; */
+    max-width: 600px;
+    display: inline-block;
+    box-sizing: border-box ;
+    transition: 0.7s ease;
+    border-radius: 50% 20%;
+}
+#intro .order-h2-div {
+    display: list-item;
+    display: flex;
+    gap: 30px;
+}
+
+#intro .order-h2 {
+    color: #000000;
+    font-size: 34px;
+    margin-top: 10px;
+    font-weight: 100;
+    transition: 0.8s ease;
+    max-width: 400px;
+}
+
+#intro .order-h2:hover {
+    color: #ff6822;
+    font-size: 34px;
+    margin-top: 10px;
+    font-weight: 900;
+    transition: 0.8s ease;
+}
+
+.card:hover {
+    transform: scale(0.9);
+    transition: 0.5s ease;
+}
+
+.card img {
+    height: 500px;
+    max-width: 100%;
+    min-width: 500px;
+    object-fit: cover;
+    transition: 0.7s ease;
+}
+
+.card img:hover {
+    opacity: 60%;
+    transition: 0.5s ease;
+}
+
+.impar img {
+    border-radius: 0px 30px;
+}
+
+.impar h2 {
+    text-align: end;
+    width: 100%;
+}
+
+.par img{
+    border-radius: 30px 0px;
+}
+
+.par h2 {
+    color: #000000;
+    padding-right: 30px;
+}
+
+.card h2 {
+    color: #000000;
+    display: inline-block;
+    margin-top: 2px;
+    font-weight: 900;
+    transition: 0.8s ease;
+}
+
+.card:hover h2 {
+    transition: 0.7s ease;
+    color: rgb(255, 132, 32);
+}
+
+.img-grid {
+    margin-left: 16px;
+    padding: 10px; 
+}
+
+
+#about h3 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.5px;
+    color: #000000;
+}
+
+
+#intro .comanda {
+    font-size: 38px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid;
+    border-radius: 30px 30px;
+}
+
+#intro a.comanda {
+    text-decoration: none;
+}
+
+#about h3.come {
+    text-decoration: underline;
+    margin: 0px 0px 0px 5px;
+}
+
+#contact a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#contact {
+    padding: 10px 0 20px 0;
+}
+
+#about {
+    min-width: 300px;
+    max-width: 800px;
+    margin: 88px 0px 10px 128px; 
+    padding-left: 25px;
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+.about-heading {
+    font-size: 44px;
+    font-weight: 700;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 415px)
+{
+    .navbar {
+        display: inline-block;
+        /* border: 1px solid red; */
+        margin: 15px 35px 15px 15px;
+        width: 88%;
+        max-width: 1000px;
+    }
+    h1 {
+        font-size: 18px;
+        /* margin: -10px 0px 0px -15px; */
+        /* border: 1px solid olive; */
+    }
+
+    nav {
+        /* border: 1px solid blue; */
+        margin: 0;
+    }
+
+    .links ul {
+        margin: 10px 0 0 -40px;
+        padding-left: 42px;
+        /* border: 1px solid brown; */
+    }
+
+    .links li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    .links a {
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .links li a:first-of-type {
+        margin-left: -10px;
+    } 
+
+    .gradient.h1 {
+        font-size: 18px;
+    }
+
+    #intro {
+        min-width: 100px;
+        /* max-width: 250px; */
+        text-align: center;
+        margin: auto;
+    }
+
+    #intro h2 {
+        font-size: 26px;
+    }
+
+    #intro .gp {
+        font-size: 26px;
+    }
+
+    #intro p {
+        font-size: 14px;
+        width: 380px;
+        margin: 0 auto;
+        line-height: 18px;
+    }
+
+    .img-grid {
+        border: 1px solid black;
+    }
+    .navbar {
+        max-width: 800px;
+    }
+
+    .img-grid {
+        max-width: 900px;
+        margin: 0;
+        /* padding-left: 50px; */
+        /* border: 1px solid aqua; */
+    }
+
+    .card img {
+        height: 150px;
+        /* max-width: 50%; */
+        min-width: 20px;
+        object-fit: cover;
+        /* border: 1px solid rgb(133, 28, 125); */
+    }
+
+
+    .card {
+        border: 1px solid blue;
+        width: 45.75%;
+        display: inline-block;
+        box-sizing: border-box ;
+        padding: 5px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .card:hover {
+        width: 5px;
+        height: 50px;
+        transition: all 200ms linear;
+    }
+
+    .card h2 {
+        font-size: 14px;
+    }
+
+    .card.card:nth-of-type(1n){
+        margin-left: 5px;
+    }
+    .card.card:nth-of-type(2n){
+        margin-left: 17px
+    }
+
+    .card h2 {
+        width: 100%;
+    }
+
+    #about {
+        width: 80x;
+        max-width: 120px;
+        margin: 28px 0px 10px 10px; 
+    }
+
+    #about .about-heading {
+        font-size: 18px;
+    }
+
+    #about h3 {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    #contact a{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+    
+    #contact {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+
+.pizza-list {
+    gap: 90px;
+    display: inline-flex;
+}
+
+#no-background {
+    background-image: none;
+}
+
